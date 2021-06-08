@@ -1,12 +1,11 @@
 import { Provider } from "react-redux";
+import CounterPage from "./pages/CounterPage";
 import store from "./store";
 
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">
-        <h1>Hello World</h1>
-      </div>
+      <CounterPage />
     </Provider>
   );
 }

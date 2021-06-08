@@ -1,1 +1,2 @@
-export const newAction = (state) => ({ type: 'NEW_ACTION', state });
+export const add = (state) => ({ type: 'ADD', state });
+export const sub = (state) => ({ type: 'SUB', state });

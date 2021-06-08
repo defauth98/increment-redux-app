@@ -1,0 +1,40 @@
+.counter-page {
+  display: flex;
+
+  width: 100vw;
+  height: 100vh;
+
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 1rem;
+  margin: 1rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.4rem;
+  transition: all 0.2s;
+}
+
+button:hover {
+  transform: scale(1.5);
+}
+
+.plus {
+  background-color: red;
+}
+
+.counter {
+  padding: 0.3rem;
+}
+
+.minus {
+  background-color: green;
+}
